@@ -1,0 +1,23 @@
+github -> repo create
+vscode-> folder create-> file create -> main.py
+main.py->print("this is my first commit")
+
+terminal->
+git init
+git remote add origin <--url of the repo-->
+git status
+git branch -m main
+git add .
+git commit -m "this is my first commit"
+git push -u origin main
+git status
+
+github-> branch create-> dev -> source main
+
+terminal->
+git fetch origin
+git branch
+git branch -a
+git checkout dev
+
+switched to new branch dev
