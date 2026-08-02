@@ -21,3 +21,20 @@ git branch -a
 git checkout dev
 
 switched to new branch dev
+git add .
+git commit -m "pushing new changes to branch dev"
+git push origin dev
+
+github->
+new branch->test
+
+terminal->
+git fetch origin
+git branch -a
+git checkout test 
+git pull origin test
+git merge origin/dev
+git push origin test 
+
+
+
